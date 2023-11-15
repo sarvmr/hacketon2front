@@ -28,7 +28,7 @@
             }
           }
         };
-        xhr.open('POST', 'https://hacketon2.onrender.com:3000/login', true);
+        xhr.open('POST', 'https://hacketon2.onrender.com/login', true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({ username, password }));
       };
@@ -43,7 +43,7 @@
             alert(xhr.responseText);
           }
         };
-        xhr.open('GET', 'https://hacketon2.onrender.com:3000/something', true);
+        xhr.open('GET', 'https://hacketon2.onrender.com/something', true);
         xhr.send();
       };
       // Initial setup: hide the logout label and ensure 
